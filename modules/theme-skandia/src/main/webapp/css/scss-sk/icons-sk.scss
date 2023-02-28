@@ -1,0 +1,848 @@
+@font-face {
+    font-family: 'icomoon-sk';
+    src:  url('../../fonts/icons-fonts/icomoon-sk.eot');
+    src:  url('../../fonts/icons-fonts/icomoon-sk.eot') format('embedded-opentype'),
+      url('../../fonts/icons-fonts/icomoon-sk.ttf?a9q8ou') format('truetype'),
+      url('../../fonts/icons-fonts/icomoon-sk.woff?a9q8ou') format('woff'),
+      url('../../fonts/icons-fonts/icomoon-sk.svg?a9q8ou#icomoon-sk') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+
+  [class^="icon-sk"], [class*=" icon-sk"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon-sk' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .icon-skMail_green:before {
+    content: "\e9b3";
+    color: #00c83c;
+  }
+  .icon-skRest1:before {
+    content: "\e9b4";
+    color: #00c83c;
+  }
+  .icon-skSearch1:before {
+    content: "\e9b5";
+    color: #00c83c;
+  }
+
+  .icon-skpause2:before {
+    content: "\ea1d";
+  }
+  .icon-skvolume-medium:before {
+    content: "\ea27";
+  }
+  .icon-skvolume-mute2:before {
+    content: "\ea2a";
+  }
+
+  
+.icon-skcomilla-One:before {
+  content: "\e9b1";
+  color: #8b8b8b;
+}
+.icon-skcomilla-Two:before {
+  content: "\e9b2";
+  color: #8b8b8b;
+}
+  .icon-skAdd:before {
+    content: "\e900";
+  }
+  .icon-skAlert .path1:before {
+    content: "\e901";
+    color: rgb(63, 63, 63);
+  }
+  .icon-skAlert .path2:before {
+    content: "\e902";
+    margin-left: -1em;
+    color: rgb(0, 200, 60);
+  }
+  .icon-skArrow-Down:before {
+    content: "\e903";
+  }
+  .icon-skArrow-Down-Green:before {
+    content: "\e903";
+    color: rgb(0, 200, 60);
+  }
+  .icon-skArrow-Left:before {
+    content: "\e904";
+  }
+  .icon-skArrow-Right:before {
+    content: "\e905";
+  }
+  .icon-skArrow-Right-Green:before {
+    content: "\e905";
+    color: rgb(0, 200, 60);
+  }
+  .icon-skArrow-Up:before {
+    content: "\e906";
+  }
+  .icon-skAvatars .path1:before {
+    content: "\e907";
+    color: rgb(0, 200, 60);
+  }
+  .icon-skAvatars .path2:before {
+    content: "\e908";
+    margin-left: -1em;
+    color: rgb(63, 63, 63);
+  }
+  .icon-skBasket .path1:before {
+    content: "\e909";
+    color: rgb(63, 63, 63);
+  }
+  .icon-skBasket .path2:before {
+    content: "\e90a";
+    margin-left: -1em;
+    color: rgb(0, 200, 60);
+  }
+  .icon-skBathroom .path1:before {
+    content: "\e90b";
+    color: rgb(0, 200, 60);
+  }
+  .icon-skBathroom .path2:before {
+    content: "\e90c";
+    margin-left: -1em;
+    color: rgb(63, 63, 63);
+  }
+  .icon-skBell .path1:before {
+    content: "\e90d";
+    color: rgb(0, 200, 60);
+  }
+  .icon-skBell .path2:before {
+    content: "\e90e";
+    margin-left: -1em;
+    color: rgb(63, 63, 63);
+  }
+  .icon-skBike .path1:before {
+    content: "\e90f";
+    color: rgb(63, 63, 63);
+  }
+  .icon-skBike .path2:before {
+    content: "\e910";
+    margin-left: -1em;
+    color: rgb(0, 200, 60);
+  }
+  .icon-skbombillo-1 .path1:before {
+    content: "\e911";
+    color: rgb(63, 63, 63);
+  }
+  .icon-skbombillo-1 .path2:before {
+    content: "\e912";
+    margin-left: -1em;
+    color: rgb(0, 200, 60);
+  }
+  .icon-skbook-1 .path1:before {
+    content: "\e913";
+    color: rgb(0, 200, 60);
+  }
+  .icon-skbook-1 .path2:before {
+    content: "\e914";
+    margin-left: -1em;
+    color: rgb(63, 63, 63);
+  }
+  .icon-skBox-1 .path1:before {
+    content: "\e915";
+    color: rgb(63, 63, 63);
+  }
+  .icon-skBox-1 .path2:before {
+    content: "\e916";
+    margin-left: -1em;
+    color: rgb(0, 200, 60);
+  }
+  .icon-skbuildings-1 .path1:before {
+    content: "\e917";
+    color: rgb(63, 63, 63);
+  }
+  .icon-skbuildings-1 .path2:before {
+    content: "\e918";
+    margin-left: -1em;
+    color: rgb(0, 200, 60);
+  }
+  .icon-skCalculator .path1:before {
+    content: "\e919";
+    color: rgb(63, 63, 63);
+  }
+  .icon-skCalculator .path2:before {
+    content: "\e91a";
+    margin-left: -1em;
+    color: rgb(0, 200, 60);
+  }
+  .icon-skCalendar .path1:before {
+    content: "\e91b";
+    color: rgb(0, 200, 60);
+  }
+  .icon-skCalendar .path2:before {
+    content: "\e91c";
+    margin-left: -1em;
+    color: rgb(63, 63, 63);
+  }
+  .icon-skCall-In .path1:before {
+    content: "\e91d";
+    color: rgb(0, 200, 60);
+  }
+  .icon-skCall-In .path2:before {
+    content: "\e91e";
+    margin-left: -1em;
+    color: rgb(63, 63, 63);
+  }
+  .icon-skCall-Out .path1:before {
+    content: "\e91f";
+    color: rgb(0, 200, 60);
+  }
+  .icon-skCall-Out .path2:before {
+    content: "\e920";
+    margin-left: -1em;
+    color: rgb(63, 63, 63);
+  }
+  .icon-skCar .path1:before {
+    content: "\e921";
+    color: rgb(63, 63, 63);
+  }
+  .icon-skCar .path2:before {
+    content: "\e922";
+    margin-left: -1em;
+    color: rgb(0, 200, 60);
+  }
+  .icon-skCarnet .path1:before {
+    content: "\e923";
+    color: rgb(0, 200, 60);
+  }
+  .icon-skCarnet .path2:before {
+    content: "\e924";
+    margin-left: -1em;
+    color: rgb(63, 63, 63);
+  }
+  .icon-skCarnet2 .path1:before {
+    content: "\e925";
+    color: rgb(0, 200, 60);
+  }
+  .icon-skCarnet2 .path2:before {
+    content: "\e926";
+    margin-left: -1em;
+    color: rgb(63, 63, 63);
+  }
+  .icon-skCase .path1:before {
+    content: "\e927";
+    color: rgb(63, 63, 63);
+  }
+  .icon-skCase .path2:before {
+    content: "\e928";
+    margin-left: -1em;
+    color: rgb(0, 200, 60);
+  }
+  .icon-skChange .path1:before {
+    content: "\e929";
+    color: rgb(0, 200, 60);
+  }
+  .icon-skChange .path2:before {
+    content: "\e92a";
+    margin-left: -1em;
+    color: rgb(63, 63, 63);
+  }
+  .icon-skChart-2 .path1:before {
+    content: "\e92b";
+    color: rgb(0, 200, 60);
+  }
+  .icon-skChart-2 .path2:before {
+    content: "\e92c";
+    margin-left: -1em;
+    color: rgb(63, 63, 63);
+  }
+  .icon-skChart-2-1 .path1:before {
+    content: "\e92d";
+    color: rgb(0, 200, 60);
+  }
+  .icon-skChart-2-1 .path2:before {
+    content: "\e92e";
+    margin-left: -1em;
+    color: rgb(63, 63, 63);
+  }
+  .icon-skChart-3 .path1:before {
+    content: "\e92f";
+    color: rgb(0, 200, 60);
+  }
+  .icon-skChart-3 .path2:before {
+    content: "\e930";
+    margin-left: -1em;
+    color: rgb(63, 63, 63);
+  }
+  .icon-skChart .path1:before {
+    content: "\e931";
+    color: rgb(0, 200, 60);
+  }
+  .icon-skChart .path2:before {
+    content: "\e932";
+    margin-left: -1em;
+    color: rgb(63, 63, 63);
+  }
+  .icon-skChat:before {
+    content: "\e933";
+  }
+  .icon-skCheck .path1:before {
+    content: "\e934";
+    color: rgb(0, 200, 60);
+  }
+  .icon-skCheck .path2:before {
+    content: "\e935";
+    margin-left: -1em;
+    color: rgb(63, 63, 63);
+  }
+  .icon-skCheck .path3:before {
+    content: "\e936";
+    margin-left: -1em;
+    color: rgb(63, 63, 63);
+  }
+  .icon-skClock .path1:before {
+    content: "\e937";
+    color: rgb(0, 200, 60);
+  }
+  .icon-skClock .path2:before {
+    content: "\e938";
+    margin-left: -1em;
+    color: rgb(63, 63, 63);
+  }
+  .icon-skClose:before {
+    content: "\e939";
+  }
+  .icon-skCoffee-2 .path1:before {
+    content: "\e93a";
+    color: rgb(63, 63, 63);
+  }
+  .icon-skCoffee-2 .path2:before {
+    content: "\e93b";
+    margin-left: -1em;
+    color: rgb(0, 200, 60);
+  }
+  .icon-skCoffee .path1:before {
+    content: "\e93c";
+    color: rgb(63, 63, 63);
+  }
+  .icon-skCoffee .path2:before {
+    content: "\e93d";
+    margin-left: -1em;
+    color: rgb(0, 200, 60);
+  }
+  .icon-skCreditCard .path1:before {
+    content: "\e93e";
+    color: rgb(63, 63, 63);
+  }
+  .icon-skCreditCard .path2:before {
+    content: "\e93f";
+    margin-left: -1em;
+    color: rgb(0, 200, 60);
+  }
+  .icon-skDesktop .path1:before {
+    content: "\e940";
+    color: rgb(0, 200, 60);
+  }
+  .icon-skDesktop .path2:before {
+    content: "\e941";
+    margin-left: -1em;
+    color: rgb(63, 63, 63);
+  }
+  .icon-skDiamond .path1:before {
+    content: "\e942";
+    color: rgb(63, 63, 63);
+  }
+  .icon-skDiamond .path2:before {
+    content: "\e943";
+    margin-left: -1em;
+    color: rgb(0, 200, 60);
+  }
+  .icon-skDollars-In .path1:before {
+    content: "\e944";
+    color: rgb(63, 63, 63);
+  }
+  .icon-skDollars-In .path2:before {
+    content: "\e945";
+    margin-left: -1em;
+    color: rgb(0, 200, 60);
+  }
+  .icon-skDollars-Out-2 .path1:before {
+    content: "\e946";
+    color: rgb(0, 200, 60);
+  }
+  .icon-skDollars-Out-2 .path2:before {
+    content: "\e947";
+    margin-left: -1em;
+    color: rgb(63, 63, 63);
+  }
+  .icon-skDollars-Out .path1:before {
+    content: "\e948";
+    color: rgb(63, 63, 63);
+  }
+  .icon-skDollars-Out .path2:before {
+    content: "\e949";
+    margin-left: -1em;
+    color: rgb(0, 200, 60);
+  }
+  .icon-skDollars .path1:before {
+    content: "\e94a";
+    color: rgb(63, 63, 63);
+  }
+  .icon-skDollars .path2:before {
+    content: "\e94b";
+    margin-left: -1em;
+    color: rgb(0, 200, 60);
+  }
+  .icon-skDoor-In .path1:before {
+    content: "\e94c";
+    color: rgb(63, 63, 63);
+  }
+  .icon-skDoor-In .path2:before {
+    content: "\e94d";
+    margin-left: -1em;
+    color: rgb(0, 200, 60);
+  }
+  .icon-skDoor-Out .path1:before {
+    content: "\e94e";
+    color: rgb(63, 63, 63);
+  }
+  .icon-skDoor-Out .path2:before {
+    content: "\e94f";
+    margin-left: -1em;
+    color: rgb(0, 200, 60);
+  }
+  .icon-skDownload:before {
+    content: "\e950";
+  }
+  .icon-skDrop .path1:before {
+    content: "\e951";
+    color: rgb(0, 200, 60);
+  }
+  .icon-skDrop .path2:before {
+    content: "\e952";
+    margin-left: -1em;
+    color: rgb(63, 63, 63);
+  }
+  .icon-skEmail.path1:before {
+    content: "\e953";
+    color: rgb(0, 200, 60);
+  }
+  .icon-skEmail.path2:before {
+    content: "\e954";
+    margin-left: -1em;
+    color: rgb(63, 63, 63);
+  }
+  .icon-skEmail-green.path2:before {
+    content: "\e954";
+    margin-left: -1em;
+    color: rgb(0, 200, 60);
+  }
+  .icon-skEuro .path1:before {
+    content: "\e955";
+    color: rgb(0, 200, 60);
+  }
+  .icon-skEuro .path2:before {
+    content: "\e956";
+    margin-left: -1em;
+    color: rgb(63, 63, 63);
+  }
+  .icon-skFacebook .path1:before {
+    content: "\e957";
+    color: rgb(63, 63, 63);
+  }
+  .icon-skFacebook .path2:before {
+    content: "\e958";
+    margin-left: -1em;
+    color: rgb(0, 200, 60);
+  }
+  .icon-skFeedback:before {
+    content: "\e959";
+  }
+  .icon-skFolder .path1:before {
+    content: "\e95a";
+    color: rgb(0, 200, 60);
+  }
+  .icon-skFolder .path2:before {
+    content: "\e95b";
+    margin-left: -1em;
+    color: rgb(63, 63, 63);
+  }
+  .icon-skForbidden .path1:before {
+    content: "\e95c";
+    color: rgb(0, 200, 60);
+  }
+  .icon-skForbidden .path2:before {
+    content: "\e95d";
+    margin-left: -1em;
+    color: rgb(63, 63, 63);
+  }
+  .icon-skGold .path1:before {
+    content: "\e95e";
+    color: rgb(63, 63, 63);
+  }
+  .icon-skGold .path2:before {
+    content: "\e95f";
+    margin-left: -1em;
+    color: rgb(0, 200, 60);
+  }
+  .icon-skHand-Money-Left .path1:before {
+    content: "\e960";
+    color: rgb(63, 63, 63);
+  }
+  .icon-skHand-Money-Left .path2:before {
+    content: "\e961";
+    margin-left: -1em;
+    color: rgb(0, 200, 60);
+  }
+  .icon-skHand-Money-Right .path1:before {
+    content: "\e962";
+    color: rgb(63, 63, 63);
+  }
+  .icon-skHand-Money-Right .path2:before {
+    content: "\e963";
+    margin-left: -1em;
+    color: rgb(0, 200, 60);
+  }
+  .icon-skHand-Rent .path1:before {
+    content: "\e964";
+    color: rgb(63, 63, 63);
+  }
+  .icon-skHand-Rent .path2:before {
+    content: "\e965";
+    margin-left: -1em;
+    color: rgb(0, 200, 60);
+  }
+  .icon-skHearth .path1:before {
+    content: "\e966";
+    color: rgb(63, 63, 63);
+  }
+  .icon-skHearth .path2:before {
+    content: "\e967";
+    margin-left: -1em;
+    color: rgb(0, 200, 60);
+  }
+  .icon-skHelmet .path1:before {
+    content: "\e968";
+    color: rgb(0, 200, 60);
+  }
+  .icon-skHelmet .path2:before {
+    content: "\e969";
+    margin-left: -1em;
+    color: rgb(63, 63, 63);
+  }
+  .icon-skHome .path1:before {
+    content: "\e96a";
+    color: rgb(0, 200, 60);
+  }
+  .icon-skHome .path2:before {
+    content: "\e96b";
+    margin-left: -1em;
+    color: rgb(63, 63, 63);
+  }
+  .icon-skIndustry .path1:before {
+    content: "\e96c";
+    color: rgb(63, 63, 63);
+  }
+  .icon-skIndustry .path2:before {
+    content: "\e96d";
+    margin-left: -1em;
+    color: rgb(0, 200, 60);
+  }
+  .icon-skInformation .path1:before {
+    content: "\e96e";
+    color: rgb(63, 63, 63);
+  }
+  .icon-skInformation .path2:before {
+    content: "\e96f";
+    margin-left: -1em;
+    color: rgb(0, 200, 60);
+  }
+  .icon-skinstagram .path1:before {
+    content: "\e970";
+    color: rgb(63, 63, 63);
+  }
+  .icon-skinstagram .path2:before {
+    content: "\e971";
+    margin-left: -1em;
+    color: rgb(0, 200, 60);
+  }
+  .icon-skLaptop .path1:before {
+    content: "\e972";
+    color: rgb(0, 200, 60);
+  }
+  .icon-skLaptop .path2:before {
+    content: "\e973";
+    margin-left: -1em;
+    color: rgb(63, 63, 63);
+  }
+  .icon-skLegal:before {
+    content: "\e974";
+  }
+  .icon-skLinkedin .path1:before {
+    content: "\e975";
+    color: rgb(63, 63, 63);
+  }
+  .icon-skLinkedin .path2:before {
+    content: "\e976";
+    margin-left: -1em;
+    color: rgb(0, 200, 60);
+  }
+  .icon-skLoading .path1:before {
+    content: "\e977";
+    color: rgb(63, 63, 63);
+  }
+  .icon-skLoading .path2:before {
+    content: "\e978";
+    margin-left: -1em;
+    color: rgb(0, 200, 60);
+  }
+  .icon-skMail:before {
+    content: "\e979";
+  }
+  .icon-skMan .path1:before {
+    content: "\e97a";
+    color: rgb(0, 200, 60);
+  }
+  .icon-skMan .path2:before {
+    content: "\e97b";
+    margin-left: -1em;
+    color: rgb(63, 63, 63);
+  }
+  .icon-skMen .path1:before {
+    content: "\e97c";
+    color: rgb(63, 63, 63);
+  }
+  .icon-skMen .path2:before {
+    content: "\e97d";
+    margin-left: -1em;
+    color: rgb(0, 200, 60);
+  }
+  .icon-skMenu-burger:before {
+    content: "\e97e";
+  }
+  .icon-skMessing-Add .path1:before {
+    content: "\e97f";
+    color: rgb(63, 63, 63);
+  }
+  .icon-skMessing-Add .path2:before {
+    content: "\e980";
+    margin-left: -1em;
+    color: rgb(0, 200, 60);
+  }
+  .icon-skMessing .path1:before {
+    content: "\e981";
+    color: rgb(63, 63, 63);
+  }
+  .icon-skMessing .path2:before {
+    content: "\e982";
+    margin-left: -1em;
+    color: rgb(0, 200, 60);
+  }
+  .icon-skMobile-phone .path1:before {
+    content: "\e983";
+    color: rgb(0, 200, 60);
+  }
+  .icon-skMobile-phone .path2:before {
+    content: "\e984";
+    margin-left: -1em;
+    color: rgb(63, 63, 63);
+  }
+  .icon-skMoney .path1:before {
+    content: "\e985";
+    color: rgb(0, 200, 60);
+  }
+  .icon-skMoney .path2:before {
+    content: "\e986";
+    margin-left: -1em;
+    color: rgb(63, 63, 63);
+  }
+  .icon-skOil .path1:before {
+    content: "\e987";
+    color: rgb(63, 63, 63);
+  }
+  .icon-skOil .path2:before {
+    content: "\e988";
+    margin-left: -1em;
+    color: rgb(0, 200, 60);
+  }
+  .icon-skOn .path1:before {
+    content: "\e989";
+    color: rgb(0, 200, 60);
+  }
+  .icon-skOn .path2:before {
+    content: "\e98a";
+    margin-left: -1em;
+    color: rgb(63, 63, 63);
+  }
+  .icon-skPause:before {
+    content: "\e98b";
+  }
+  .icon-skPen .path1:before {
+    content: "\e98c";
+    color: rgb(63, 63, 63);
+  }
+  .icon-skPen .path2:before {
+    content: "\e98d";
+    margin-left: -1em;
+    color: rgb(0, 200, 60);
+  }
+  .icon-skPeople .path1:before {
+    content: "\e98e";
+    color: rgb(0, 200, 60);
+  }
+  .icon-skPeople .path2:before {
+    content: "\e98f";
+    margin-left: -1em;
+    color: rgb(63, 63, 63);
+  }
+  .icon-skPhone .path1:before {
+    content: "\e990";
+    color: rgb(0, 200, 60);
+  }
+  .icon-skPhone .path2:before {
+    content: "\e991";
+    margin-left: -1em;
+    color: rgb(63, 63, 63);
+  }
+  .icon-skPlay:before {
+    content: "\e992";
+  }
+  .icon-skRest:before {
+    content: "\e993";
+  }
+  .icon-skSafety .path1:before {
+    content: "\e994";
+    color: rgb(63, 63, 63);
+  }
+  .icon-skSafety .path2:before {
+    content: "\e995";
+    margin-left: -1em;
+    color: rgb(0, 200, 60);
+  }
+  .icon-skSearch:before {
+    content: "\e996";
+  }
+  .icon-skSheet-2 .path1:before {
+    content: "\e997";
+    color: rgb(0, 200, 60);
+  }
+  .icon-skSheet-2 .path2:before {
+    content: "\e998";
+    margin-left: -1em;
+    color: rgb(63, 63, 63);
+  }
+  .icon-skSheet-3 .path1:before {
+    content: "\e999";
+    color: rgb(0, 200, 60);
+  }
+  .icon-skSheet-3 .path2:before {
+    content: "\e99a";
+    margin-left: -1em;
+    color: rgb(63, 63, 63);
+  }
+  .icon-skSheet-4 .path1:before {
+    content: "\e99b";
+    color: rgb(63, 63, 63);
+  }
+  .icon-skSheet-4 .path2:before {
+    content: "\e99c";
+    margin-left: -1em;
+    color: rgb(0, 200, 60);
+  }
+  .icon-skSheet .path1:before {
+    content: "\e99d";
+    color: rgb(63, 63, 63);
+  }
+  .icon-skSheet .path2:before {
+    content: "\e99e";
+    margin-left: -1em;
+    color: rgb(0, 200, 60);
+  }
+  .icon-skStudy .path1:before {
+    content: "\e99f";
+    color: rgb(0, 200, 60);
+  }
+  .icon-skStudy .path2:before {
+    content: "\e9a0";
+    margin-left: -1em;
+    color: rgb(63, 63, 63);
+  }
+  .icon-skThermometer .path1:before {
+    content: "\e9a1";
+    color: rgb(63, 63, 63);
+  }
+  .icon-skThermometer .path2:before {
+    content: "\e9a2";
+    margin-left: -1em;
+    color: rgb(0, 200, 60);
+  }
+  .icon-skTrash .path1:before {
+    content: "\e9a3";
+    color: rgb(63, 63, 63);
+  }
+  .icon-skTrash .path2:before {
+    content: "\e9a4";
+    margin-left: -1em;
+    color: rgb(0, 200, 60);
+  }
+  .icon-skTwitter .path1:before {
+    content: "\e9a5";
+    color: rgb(63, 63, 63);
+  }
+  .icon-skTwitter .path2:before {
+    content: "\e9a6";
+    margin-left: -1em;
+    color: rgb(0, 200, 60);
+  }
+  .icon-skWeight .path1:before {
+    content: "\e9a7";
+    color: rgb(63, 63, 63);
+  }
+  .icon-skWeight .path2:before {
+    content: "\e9a8";
+    margin-left: -1em;
+    color: rgb(0, 200, 60);
+  }
+  .icon-skWomen .path1:before {
+    content: "\e9a9";
+    color: rgb(0, 200, 60);
+  }
+  .icon-skWomen .path2:before {
+    content: "\e9aa";
+    margin-left: -1em;
+    color: rgb(63, 63, 63);
+  }
+  .icon-skYoutube .path1:before {
+    content: "\e9ab";
+    color: rgb(0, 200, 60);
+  }
+  .icon-skYoutube .path2:before {
+    content: "\e9ac";
+    margin-left: -1em;
+    color: rgb(63, 63, 63);
+  }
+  .icon-skCross .path1:before {
+    content: "\e9ad";
+    color: rgb(0, 200, 60);
+  }
+  .icon-skCross .path2:before {
+    content: "\e9ae";
+    margin-left: -1em;
+    color: rgb(63, 63, 63);
+  }
+  .icon-skDown .path1:before {
+    content: "\e9af";
+    color: rgb(63, 63, 63);
+  }
+  .icon-skDown .path2:before {
+    content: "\e9b0";
+    margin-left: -1em;
+    color: rgb(0, 200, 60);
+  }
+    
+
+  

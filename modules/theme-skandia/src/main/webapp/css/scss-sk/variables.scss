@@ -1,0 +1,164 @@
+/*General color*/
+/*green*/
+$green-10:#CEFCC9;
+$green-20:#95F996;
+$green-30:#5FED73;
+$green-40:#37DE59;
+$green-50:#00C83C;
+$green-60:#00AC44;
+$green-70:#009047;
+$green-80:#007444;
+$green-90:#006042;
+$green-100: #A5F9A9;
+/*gray*/ 
+$gray-1:#363636;
+$gray-2:#7C7C7C;
+$gray-3:#565656;
+$gray-4:#878787;
+$gray-5:#A5A5A5;
+$gray-6:#B7B7B7;
+$gray-7: #CFD8DC; 
+$gray-8:#78909C;
+$gray-9:#EDEDED;
+$gray-11:#D1D1D1;
+$gray-12:#252525;
+$gray-13:#ECEFF1;
+$gray-14:#F7F9F9;
+$gray-10:#F5F5F5;
+$gray-20:#EBEBEB;
+$gray-30:#C5C5C5;
+$gray-40:#8B8B8B;
+$gray-50: #3F3F3F;
+$gray-60:#362E2E;
+$gray-70:#2D1F22;
+$gray-80:#241418;
+$gray-90:#1E0C12;
+$gray-100:#202020;
+$gray-150:#666666;
+
+$neutro-20:#E9E9E9;
+$neutro-10:#F4F4F4;
+$gray-91:#BDBDBD;
+$error-color: #E12B1C;
+
+/*gray alpha*/
+$gray-alpha-50:0.5;
+$gray-alpha-60:0.6;
+$gray-alpha-80:0.8;
+/*white*/
+$white-main:#FFF;
+
+/*orange*/
+$orange-10:#FEF2CB;
+$orange-20:#FEE098;
+$orange-30:#FECA65;
+$orange-40:#FEB53F;
+$orange-50:#FE9200;
+$orange-60:#DA7400;
+$orange-70:#B65900;
+$orange-80:#934100;
+$orange-90:#793100;
+
+
+/* General fonts*/
+$font-size-10:10px;
+$font-size-12:12px;
+$font-size-14:14px;
+$font-size-16:16px;
+$font-size-18:18px;
+$font-size-20:20px;
+$font-size-22:22px;
+$font-size-24:24px;
+$font-size-32:32px;
+$font-size-40:40px;
+$font-size-48:48px;
+$font-size-56:56px;
+$font-size-64:64px;
+$font-size-72:72px;
+$font-size-1: 14.32px;
+$font-size-2:9.44px;
+$font-size-3:18px;
+$font-size-4:48px;
+$font-size-5:32px;
+
+/*fonts-family*/
+$font-Montserrat-Regular:Montserrat-Regular;
+$font-Montserrat-Medium:Montserrat-Medium;
+$font-Montserrat-SemiBold:Montserrat-SemiBold;
+$font-Montserrat-Bold:Montserrat-Bold;
+
+/*iconmon-family*/
+$font-Iconmoon-family:icomoon-sk;
+
+/*width & heigth - Icons*/
+$wh-main:14.24px;
+/**/
+
+
+:root{  
+    --green-10:#{$green-10};
+    --green-20:#{$green-20};
+    --green-40:#{$green-40};
+    --green-30:#{$green-30};
+    --green-50:#{$green-50};
+    --green-60:#{$green-60};
+    --green-70:#{$green-70};
+    --green-80:#{$green-80};
+    --green-90:#{$green-90};
+    --green-100:#{$green-100};   
+    --gray-1:#{$gray-1};
+    --gray-2:#{$gray-2};
+    --gray-3:#{$gray-3};  
+    --gray-4:#{$gray-4};    
+    --gray-5:#{$gray-5};
+    --gray-6:#{$gray-6}; 
+    --gray-7:#{$gray-7};  
+    --gray-8:#{$gray-8}; 
+    --gray-9:#{$gray-9}; 
+    --gray-11:#{$gray-11};
+    --gray-12:#{$gray-12};      
+    --gray-13:#{$gray-13}; 
+    --gray-14:#{$gray-14}; 
+    --gray-10:#{$gray-10};
+    --gray-20:#{$gray-20};
+    --gray-30:#{$gray-30};
+    --gray-40:#{$gray-40}; 
+    --gray-50:#{$gray-50};
+    --gray-60:#{$gray-60};
+    --gray-70:#{$gray-70};
+    --gray-80:#{$gray-80};
+    --gray-90:#{$gray-90};
+    --gray-100:#{$gray-100};
+    --gray-150:#{$gray-150}; 
+    --gray-91:#{$gray-91};
+    --neutro-20:#{$neutro-20};
+    --neutro-10:#{$neutro-10};
+    --error-color:#{$error-color};
+    --white-main:#{$white-main};
+    --font-size-10:#{$font-size-10};
+    --font-size-12:#{$font-size-12};
+    --font-size-14:#{$font-size-14};
+    --font-size-16:#{$font-size-16};
+    --font-size-18:#{$font-size-18};
+    --font-size-20:#{$font-size-20};
+    --font-size-22:#{$font-size-22};
+    --font-size-24:#{$font-size-24};
+    --font-size-32:#{$font-size-32};
+    --font-size-40:#{$font-size-40};
+    --font-size-48:#{$font-size-48};
+    --font-size-56:#{$font-size-56};
+    --font-size-72:#{$font-size-72};
+    --font-size-1:#{$font-size-1};
+    --font-size-2:#{$font-size-2};
+    --font-size-3:#{$font-size-3};
+    --font-size-4:#{$font-size-4};
+    --font-size-5:#{$font-size-5};
+    --font-Montserrat-Regular:#{$font-Montserrat-Regular};
+    --font-Montserrat-Medium:#{$font-Montserrat-Medium};
+    --font-Montserrat-SemiBold:#{$font-Montserrat-SemiBold};
+    --font-Montserrat-Bold:#{$font-Montserrat-Bold};
+    --wh-main:#{$wh-main};
+    --gray-alpha-50:#{$gray-alpha-50};   
+    --font-Iconmoon-family:#{$font-Iconmoon-family};
+    --breakpoint-lg: 1024px;
+}
